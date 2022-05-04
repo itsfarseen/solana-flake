@@ -1,0 +1,12 @@
+diff --git a/Cargo.lock b/Cargo.lock
+index 898e916f8a..c22aaae0d4 100644
+--- a/Cargo.lock
++++ b/Cargo.lock
+@@ -4452,7 +4452,6 @@ dependencies = [
+  "clap 3.1.12",
+  "regex",
+  "serial_test",
+- "solana-download-utils",
+  "solana-sdk 1.10.11",
+  "tar",
+ ]
