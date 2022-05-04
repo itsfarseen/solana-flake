@@ -3,7 +3,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
   outputs = inputs: {
-    defaultPackage.x86_64-linux = with import inputs.nixpkgs { 
+    packages.x86_64-linux.default = with import inputs.nixpkgs { 
       system = "x86_64-linux";
     }; rustPlatform.buildRustPackage rec {
       pname = "solana-cargo-build-bpf";
