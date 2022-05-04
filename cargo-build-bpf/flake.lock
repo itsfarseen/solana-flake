@@ -18,25 +18,7 @@
     },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs",
-        "solana": "solana"
-      }
-    },
-    "solana": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1651657250,
-        "narHash": "sha256-eanhdS3FOmZugoeDAElyk5nVUlRijQrr29tkv5Poe2E=",
-        "owner": "solana-labs",
-        "repo": "solana",
-        "rev": "b2ecfa6252fb1b2d5253150f34dee463d917ec1f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "solana-labs",
-        "repo": "solana",
-        "rev": "b2ecfa6252fb1b2d5253150f34dee463d917ec1f",
-        "type": "github"
+        "nixpkgs": "nixpkgs"
       }
     }
   },
