@@ -1,0 +1,123 @@
+{
+  "nodes": {
+    "cargo-build-bpf": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-oHULhh3PeCezkH64vPW1L0u21/LnPpEVt8W6paIyZtw=",
+        "path": "./cargo-build-bpf",
+        "type": "path"
+      },
+      "original": {
+        "path": "./cargo-build-bpf",
+        "type": "path"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1651558728,
+        "narHash": "sha256-8HzyRnWlgZluUrVFNOfZAOlA1fghpOSezXvxhalGMUo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cbe587c735b734405f56803e267820ee1559e6c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1651558728,
+        "narHash": "sha256-8HzyRnWlgZluUrVFNOfZAOlA1fghpOSezXvxhalGMUo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cbe587c735b734405f56803e267820ee1559e6c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1651558728,
+        "narHash": "sha256-8HzyRnWlgZluUrVFNOfZAOlA1fghpOSezXvxhalGMUo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cbe587c735b734405f56803e267820ee1559e6c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_4": {
+      "locked": {
+        "lastModified": 1651558728,
+        "narHash": "sha256-8HzyRnWlgZluUrVFNOfZAOlA1fghpOSezXvxhalGMUo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cbe587c735b734405f56803e267820ee1559e6c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "cargo-build-bpf": "cargo-build-bpf",
+        "nixpkgs": "nixpkgs_2",
+        "solana-bpf-tools": "solana-bpf-tools",
+        "solana-cli": "solana-cli"
+      }
+    },
+    "solana-bpf-tools": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_3"
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-K4AhPEGf695nk15LyHrj5SgpXwD5In2Di4tNCWCi/d0=",
+        "path": "./solana-bpf-tools",
+        "type": "path"
+      },
+      "original": {
+        "path": "./solana-bpf-tools",
+        "type": "path"
+      }
+    },
+    "solana-cli": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_4"
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-5je5eZ1JQp497H6mjHzUyphVWKkP+JkXn1TJS+Q4epo=",
+        "path": "./solana-cli",
+        "type": "path"
+      },
+      "original": {
+        "path": "./solana-cli",
+        "type": "path"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
