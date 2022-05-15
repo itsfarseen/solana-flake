@@ -22,9 +22,9 @@
       ];
 
       installPhase = ''
-        mkdir -p $out;
-        cp -r $src/llvm $out;
-        cp -r $src/rust $out;
+        mkdir -p $out/dependencies/bpf-tools;
+        cp -r $src/llvm $out/dependencies/bpf-tools/;
+        cp -r $src/rust $out/dependencies/bpf-tools/;
         chmod 0755 -R $out;
       '';
 
