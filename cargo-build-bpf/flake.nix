@@ -7,7 +7,7 @@
       system = "x86_64-linux";
     }; rustPlatform.buildRustPackage rec {
       pname = "solana-cargo-build-bpf";
-      version = "1.10.11";
+      version = "1.10.29";
 
       src = fetchFromGitHub {
         owner = "solana-labs";
@@ -15,8 +15,9 @@
         rev = "v${version}";
         hash = "sha256-m2nzpAzWEy5cVe7tCyOv3TC+yFQLQF4sMorTHLorttA=";
       };
+      buildAndTestSubdir = "sdk/cargo-build-bpf";
 
-      cargoHash = "sha256-gEZdqbXpBwpQzqChA8dDBwvJO+tCbjcnVqMNGAeCyrw=";
+      cargoHash = "sha256-EGMefAtpOnIGrfnQA3ewATvthMKGd2+q/HDIZpK4VLM=";
 
       nativeBuildInputs = [
         pkg-config
@@ -37,7 +38,11 @@
 
       doCheck = false;
 
-      cargoPatches = [ ./patches/main.rs.diff ./patches/Cargo.toml.diff ./patches/Cargo.lock.diff ];
+      cargoPatches = [ 
+        ./patches/main.rs.diff 
+        ./patches/Cargo.toml.diff 
+        ./patches/Cargo.lock.diff 
+      ];
 
       meta = with lib; {
         homepage = "https://github.com/solana-labs/solana/tree/master/sdk/cargo-build-bpf";
