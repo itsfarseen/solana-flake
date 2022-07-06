@@ -7,7 +7,7 @@
       system = "x86_64-linux";
     }; stdenv.mkDerivation rec {
       name = "solana-cli";
-      version = "1.10.11";
+      version = "1.10.29";
       filename = "solana-release-x86_64-unknown-linux-gnu.tar.bz2";
       src = fetchzip {
         url = "https://github.com/solana-labs/solana/releases/download/v${version}/${filename}";

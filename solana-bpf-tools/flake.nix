@@ -7,7 +7,7 @@
       system = "x86_64-linux";
     }; stdenv.mkDerivation rec {
       name = "solana-bpf-tools-${version}";
-      version = "1.23";
+      version = "1.27";
       src = fetchzip {
         url = "https://github.com/solana-labs/bpf-tools/releases/download/v${version}/solana-bpf-tools-linux.tar.bz2";
         sha256 = "sha256-4aWBOAOcGviwJ7znGaHbB1ngNzdXqlfDX8gbZtdV1aA=";
