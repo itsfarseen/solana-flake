@@ -10,7 +10,7 @@
       version = "1.27";
       src = fetchzip {
         url = "https://github.com/solana-labs/bpf-tools/releases/download/v${version}/solana-bpf-tools-linux.tar.bz2";
-        sha256 = "sha256-4aWBOAOcGviwJ7znGaHbB1ngNzdXqlfDX8gbZtdV1aA=";
+        sha256 = "sha256-OBX9a5Rtm7w+IbSUtxFFLPBIl4FsYcZs22DIwCsVnis=";
         stripRoot = false;
       };
 

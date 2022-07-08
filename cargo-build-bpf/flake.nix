@@ -13,11 +13,11 @@
         owner = "solana-labs";
         repo = "solana";
         rev = "v${version}";
-        hash = "sha256-m2nzpAzWEy5cVe7tCyOv3TC+yFQLQF4sMorTHLorttA=";
+        hash = "sha256-tw6WLSZXnqTVr7avQSJf4N4Fz87VTjbQtA5PXjiheUY=";
       };
       buildAndTestSubdir = "sdk/cargo-build-bpf";
 
-      cargoHash = "sha256-EGMefAtpOnIGrfnQA3ewATvthMKGd2+q/HDIZpK4VLM=";
+      cargoHash = "sha256-b+bEbq2F+a8XkvNw9rqQJeQzynvj8zvAUvKJwi2tRs0=";
 
       nativeBuildInputs = [
         pkg-config

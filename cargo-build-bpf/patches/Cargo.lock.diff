@@ -7,6 +7,6 @@ index 898e916f8a..c22aaae0d4 100644
   "regex",
   "serial_test",
 - "solana-download-utils",
-  "solana-sdk 1.10.11",
+  "solana-sdk 1.10.29",
   "tar",
  ]
